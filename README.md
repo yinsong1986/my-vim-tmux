@@ -5,8 +5,8 @@
 
     # customize tmux and vim
     git clone https://github.com/yinsong1986/dev-env.git
-    ln -sf ./dev-env/.vimrc ~/.vimrc
-    ln -sf ./dev-env/.tmux.conf ~/.tmux.conf
+    ln -sf $(pwd)/dev-env/.vimrc ~/.vimrc
+    ln -sf $(pwd)/dev-env/.tmux.conf ~/.tmux.conf
     
 And run: `:PlugInstall` in vim.
 
