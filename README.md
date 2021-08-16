@@ -1,5 +1,11 @@
 # Getting Started
     
+    # install zsh
+    ## on CentOS
+    sudo yum update && sudo yum -y install zsh
+    ## on MACOS
+    brew install zsh
+    
     # install ohmyzsh
     sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
