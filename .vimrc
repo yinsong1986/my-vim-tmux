@@ -10,6 +10,7 @@ Plug 'tpope/vim-commentary'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'jiangmiao/auto-pairs'
 Plug 'JamshedVesuna/vim-markdown-preview'
+Plug 'pechorin/any-jump.vim'
 
 call plug#end()
 

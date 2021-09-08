@@ -13,6 +13,7 @@
     See https://github.com/tmux-plugins/tpm#installation for installation instructions.    
 
     # customize tmux and vim
+    brew install the_silver_searcher
     git clone https://github.com/yinsong1986/dev-env.git
     ln -sf $(pwd)/dev-env/.vimrc ~/.vimrc
     ln -sf $(pwd)/dev-env/.tmux.conf ~/.tmux.conf
