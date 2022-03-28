@@ -14,9 +14,9 @@
 
     # customize tmux and vim
     brew install the_silver_searcher
-    git clone https://github.com/yinsong1986/vim-data-science.git
-    ln -sf $(pwd)/vim-data-science/.vimrc ~/.vimrc
-    ln -sf $(pwd)/vim-data-science/.tmux.conf ~/.tmux.conf
+    git clone https://github.com/yinsong1986/my-vim-tmux.git
+    ln -sf $(pwd)/my-vim-tmux/.vimrc ~/.vimrc
+    ln -sf $(pwd)/my-vim-tmux/.tmux.conf ~/.tmux.conf
 
     
 And run: `:PlugInstall` in vim.
