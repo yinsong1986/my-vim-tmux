@@ -109,3 +109,6 @@ set nowrap
 set colorcolumn=88
 set cursorline
 set spell
+
+" Controls which file types YouCompleteMe should be turned off.
+let g:ycm_filetype_blacklist = {} 
