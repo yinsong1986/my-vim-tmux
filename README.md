@@ -9,6 +9,14 @@
     # install ohmyzsh
     sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+    # install tmux
+    brew install tmux
+
+    # install vim
+    brew install vim
+    curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
     # install TPM (tmux plugin manager).
     See https://github.com/tmux-plugins/tpm#installation for installation instructions.    
 
