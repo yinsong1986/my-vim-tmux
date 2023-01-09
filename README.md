@@ -8,6 +8,9 @@
     
     # install ohmyzsh
     sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    
+    # install grip for markdown display
+    brew install grip
 
     # install tmux
     brew install tmux
